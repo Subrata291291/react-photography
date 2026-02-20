@@ -421,7 +421,7 @@ a {
 .review-area {
     position: relative;
     z-index: 1;
-    background: url(../images/banner-bg-1.jpg);
+    background: url(../images/banner-bg-2.jpg);
     @include banner-prop;
     background-position: bottom;
     background-attachment: fixed;
@@ -507,7 +507,7 @@ a {
 
 /*Footer Area*/
 .footer-area { padding-bottom: 4rem;
-    background: url(../images/banner-bg-2.jpg);
+    background: url(../images/common-banner.jpg);
     @include banner-prop;
     position: relative;
     z-index: 1;
