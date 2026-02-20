@@ -1,0 +1,49 @@
+@mixin btn-prop {
+    background: linear-gradient(113deg, #fff 50%, #C7D300 0);
+    border: none;
+    background-position: calc(100% + 2px) -2px;
+    background-repeat: no-repeat;
+    background-size: calc(220% + 4px) calc(100% + 4px);
+    transition: background .2s ease-in-out;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 1.3rem 3rem;
+}
+@mixin btn-prop-hover {
+    color: #0a0a0a;
+    box-shadow: none;
+    outline: none;
+    background-position: 50% -2px;
+}
+@mixin banner-prop {
+    background-position: center;
+    background-size: cover;
+}
+@mixin title-prop {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 5rem;
+    letter-spacing: 2px;
+}
+@mixin title-prop-before {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: var(--ss-primary);
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+@mixin heading-prop {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 60rem;
+    line-height: 9rem;
+    margin: 2rem 0rem;
+}
