@@ -85,7 +85,7 @@ const Header = () => {
                   ))}
 
                   {/* Dropdown */}
-                  <li className="nav-item dropdown">
+                  {/* <li className="nav-item dropdown">
                     <span
                       className="nav-link dropdown-toggle"
                       role="button"
@@ -122,14 +122,15 @@ const Header = () => {
                         </NavLink>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
                   {/* Modal */}
                   <li className="nav-item ms-lg-3">
                     <button
+                      type="button"
                       className="common_btn btn"
                       data-bs-toggle="modal"
-                      data-bs-target="#appointmentModal"
+                      data-bs-target="#form-modal"
                     >
                       Book Appointment
                     </button>

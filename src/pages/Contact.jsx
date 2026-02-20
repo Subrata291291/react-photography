@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <CommonSection
-        title="My Blogs"
+        title="Contact Me"
         description="Praesent sed nisl ullamcorper, viverra magna the finibus viventa ipsum eros amet vacun in the vitae miss."
       />
       <ContactSection data={contactData} />

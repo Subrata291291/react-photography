@@ -962,6 +962,7 @@ a {
 .class-form input {
   width: 100%;
   border: none;
+  font-size: 1.4rem;
   border-radius: 0rem;
   outline: none;
   border: 1px solid #ddd;
@@ -991,6 +992,9 @@ a {
 .modal-content {
   background-color: var(--ss-secondary);
   border: 1px solid var(--ss-primary);
+}
+.modal-content button {
+  width: 100%;
 }
 
 @media (min-width: 1400px) {

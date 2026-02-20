@@ -1031,6 +1031,7 @@ a {
     input {
         width: 100%;
         border: none;
+        font-size: 1.4rem;
         border-radius: 0rem;
         outline: none;
         border: 1px solid #ddd;
@@ -1061,6 +1062,9 @@ a {
   .modal-content {
     background-color: var(--ss-secondary);
     border: 1px solid var(--ss-primary);
+    button {
+        width: 100%;
+    }
   }
   
 

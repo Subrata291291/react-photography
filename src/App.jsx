@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import ScrollToTop from "./components/ScrollToTop"
 
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -12,11 +11,11 @@ import ReviewSection from "./components/ReviewSection"
 import BrandSection from "./components/BrandSection"
 import Services from "./pages/Services"
 
+import AppointmentModal from "./components/AppointmentModal"
+
 function App() {
   return (
     <>
-    
-      <ScrollToTop />
       <Header />
 
       <Routes>
@@ -30,6 +29,8 @@ function App() {
       <ReviewSection/>
       <BrandSection/>
       <Footer />
+      {/* Global Modal */}
+      <AppointmentModal />
     </>
   )
 }
