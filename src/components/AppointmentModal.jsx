@@ -24,7 +24,7 @@ const AppointmentModal = () => {
     setLoading(true)
 
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbyQjJ05-9dC_5By0xmArK005tgbgYQHDXQG7OqF5TrseMlkvyMSnrIwSk_qHt-KPy6GBw/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbweNmglov1UDVMM3W7roc2iDTsKPUQqaHmo_DXccmgE7Hr2XiBFjLr8wzoTSBw0T3kH0Q/exec", {
         method: "POST",
         body: JSON.stringify(formData)
       })
